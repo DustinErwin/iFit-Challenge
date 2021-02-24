@@ -9,7 +9,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/EmpDirect", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/ifit", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
