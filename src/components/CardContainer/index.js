@@ -1,14 +1,12 @@
-import React, { useContext } from "react";
-import CardContext from "../../contexts/CardContext";
+import React from "react";
+
 import "./style.css";
 
-export default function CardContainer() {
-  const cardContent = useContext(CardContext);
-
+export default function CardContainer({ title, thumb }) {
   return (
     <div className="container">
-      <span>{cardContent.title}</span>
-      <img className="thumb" src={cardContent.thumb} alt="thumbnail rowing" />
+      <span>{title}</span>
+      <img className="thumb" src={thumb} alt="thumbnail rowing" />
     </div>
   );
 }

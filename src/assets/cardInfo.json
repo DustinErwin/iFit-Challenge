@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "./images/lake-inniscarra-thumb.jpg",
+    "thumb": "./images/lake-inniscarra-trainer.jpg",
+    "title": "Lake Inniscarra, Ireland-- Pyramid"
+  },
+  {
+    "id": 2,
+    "image": "./images/performance-series-thumb.jpg",
+    "thumb": "./images/performance-series-trainer.jpg",
+    "title": "Performance Series"
+  },
+  {
+    "id": 3,
+    "image": "./images/slow-pulls-thumb.jpg",
+    "thumb": "./images/slow-pulls-trainer.jpg",
+    "title": "Slow Pulls and Fast Intervals"
+  },
+  {
+    "id": 4,
+    "image": "./images/20-minutes-to-toned-thumb.jpg",
+    "thumb": "./images/20-minutes-to-toned-trainer.jpg",
+    "title": "20 Minutes to Toned"
+  },
+  {
+    "id": 5,
+    "image": "./images/charles-race-thumb.jpg",
+    "thumb": "./images/charles-race-trainer.jpg",
+    "title": "Charles Race, Boston, Massachusetts"
+  },
+  {
+    "id": 6,
+    "image": "./images/full-body-hiit-thumb.jpg",
+    "thumb": "./images/full-body-hiit-trainer.jpg",
+    "title": "Full-Body HIIT Series"
+  },
+  {
+    "id": 7,
+    "image": "./images/kafue-river-thumb.jpg",
+    "thumb": "./images/kafue-river-trainer.jpg",
+    "title": "Kafue River, Zambia-- Power Stroke Pyramid"
+  },
+  {
+    "id": 8,
+    "image": "./images/shred-and-burn-thumb.jpg",
+    "thumb": "./images/shred-and-burn-trainer.jpg",
+    "title": "Shred & Burn Series"
+  }
+]

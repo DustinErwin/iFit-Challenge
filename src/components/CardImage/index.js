@@ -1,9 +1,7 @@
-import React, { useContext } from "react";
-import CardContext from "../../contexts/CardContext";
+import React from "react";
 
 import "./style.css";
 
-export default function CardImage() {
-  const cardContent = useContext(CardContext);
-  return <img className="image" src={cardContent.image} alt="Rowing Machine" />;
+export default function CardImage({ image }) {
+  return <img className="image" src={image} alt="Rowing Machine" />;
 }
