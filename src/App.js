@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import image from "./assets/images/slow-pulls-thumb.jpg";
+import thumb from "./assets/images/slow-pulls-trainer.jpg";
+import "./App.css";
+import Card from "./components/Card";
+import CardContext from "./contexts/CardContext";
 
 function App() {
+  const [cardContent, setCardContent] = useState({
+    image: image,
+    title: "Title Goes Here! --",
+    thumb: thumb,
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CardContext.Provider value={cardContent}>
+      <div className="App">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </CardContext.Provider>
   );
 }
 
